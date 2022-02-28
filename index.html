@@ -1,25 +1,55 @@
----
-permalink: /404.html
-layout: default
----
-
-<style type="text/css" media="screen">
-    .container {
-        margin: 10px auto;
-        max-width: 600px;
-        text-align: center;
+<!DOCTYPE html>
+<style>
+    /* unvisited link */
+    a:link {
+        color: white;
     }
-    h1 {
-        margin: 30px 0;
-        font-size: 4em;
-        line-height: 1;
-        letter-spacing: -1px;
+
+    /* visited link */
+    a:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: white;
+    }
+
+    /* selected link */
+    a:active {
+        color: white;
+    }
+
+    .home {
+        background-image: url('assets/images/home_photo.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>Home</title>
+</head>
 
-<div class="container">
-    <h1>404</h1>
+<div class="row" style=" font-family: 'Times New Roman', Times, serif;">
 
-    <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
+    <div class="col-md-3">
+        <h1>
+            <a class="site-title" rel="author" href="/">Ahmad Halabisaz</a>
+        </h1>
+    </div>
+    <div class="col-md-3">
+        <h1>
+            <a class="page-link" href="/about/">About</a>
+        </h1>
+    </div>
 </div>
+
+<body class="home">
+
+<h1>Hello World!</h1>
+
+</body>
+</html>
